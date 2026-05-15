@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kime | Career & Education Center</title>
+    <meta name="description" content="Career Choice Consulting. 🔎 Exclusive Toolkit in Armenia 🧠 Self-Discovery 🎯 Decision Making 📊 300+ Successful Cases.">
+    <!-- Basic SEO tags -->
+    <meta property="og:title" content="Kime Career Club">
+    <meta property="og:description" content="Career Choice Consulting in Armenia. Make the right career decisions with Kime.">
+    <meta property="og:type" content="website">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Calendly link widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <header class="glass-header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Kime Logo" class="logo-img">
+                <span class="logo-text">KIME</span>
+            </div>
+            
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#about" data-i18n="nav_about">Մեր մասին</a></li>
+                    <li><a href="#services" data-i18n="nav_services">Ծառայություններ</a></li>
+                    <li><a href="#feedbacks" data-i18n="nav_feedbacks">Feedbacks</a></li>
+                    <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Կոնտակտներ</a></li>
+                </ul>
+                <div class="header-actions">
+                    <div class="lang-switcher">
+                        <button class="lang-btn active" data-lang="am">AM</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                    <button class="btn btn-primary" onclick="openCalendly()" data-i18n="cta_register">Գրանցվի’ր</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n="hero_title">Kime • Կայմ </h1>
+                    <h2 class="hero-title" data-i18n="hero_title">Career & Education Center</h2>
+                    <p class="hero-subtitle" data-i18n="hero_subtitle">Մասնագիտության ընտրության խորհրդատվություն | 13+</p>
+                    
+                    <ul class="hero-features">
+                        <li><span class="icon">🔎</span> <span data-i18n="feat_1">Գործիքակազմ՝ միակը ՀՀ-ում</span></li>
+                        <li><span class="icon">🧠</span> <span data-i18n="feat_2">Ինքնաճանաչում</span></li>
+                        <li><span class="icon">🎯</span> <span data-i18n="feat_3">Որոշումների կայացում</span></li>
+                        <li><span class="icon">📊</span> <span data-i18n="feat_4">300+ հաջողված քեյս</span></li>
+                    </ul>
+
+                    <div class="hero-cta">
+                        <button class="btn btn-large btn-primary cta-pulse" onclick="openCalendly()" data-i18n="cta_register_down">Գրանցվի'ր</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="image-wrapper glass-card">
+                        <img src="hero.png" alt="Hero Illustration" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sec_about">Մեր մասին</h2>
+                <div class="glass-panel">
+                    <p data-i18n="about_text">
+                        Kime Career & Education Center-ը ստեղծված է օգնելու ձեզ գտնել ձեր ճշգրիտ մասնագիտական ուղին: Մեր բացառիկ գործիքակազմի և խորհրդատվության միջոցով մենք բացահայտում ենք ձեր ներուժը և ուղղորդում դեպի հաջող կարիերա։ (Content placeholder for "About Us")
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sec_services">Ծառայություններ</h2>
+                <div class="services-grid">
+                    <div class="service-card glass-card">
+                        <div class="service-icon" style="background-color: var(--color-2)">🧠</div>
+                        <h3 data-i18n="srv_1_title">Ինքնաճանաչում</h3>
+                        <p data-i18n="srv_1_desc">Բացահայտեք ձեր ուժեղ կողմերն ու հետաքրքրությունները:</p>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon" style="background-color: var(--color-3)">🎯</div>
+                        <h3 data-i18n="srv_2_title">Որոշումների կայացում</h3>
+                        <p data-i18n="srv_2_desc">Մասնագիտության ընտրության և կարիերայի պլանավորման աջակցություն:</p>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon" style="background-color: var(--color-1)">🎓</div>
+                        <h3 data-i18n="srv_3_title">Կրթական Խորհրդատվություն</h3>
+                        <p data-i18n="srv_3_desc">Ուսումնական հաստատությունների և ծրագրերի ընտրություն:</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feedbacks Section -->
+        <section id="feedbacks" class="section feedbacks-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sec_feedbacks">Feedbacks</h2>
+                <div class="feedback-slider">
+                    <div class="feedback-card glass-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="feedback-text" data-i18n="feedback_1">"Kime-ի շնորհիվ ես վերջապես հասկացա, թե որ մասնագիտությունն է ինձ իրականում համապատասխանում:"</p>
+                        <p class="feedback-author">- Աննա  
+                        </p>
+                    </div>
+                    <div class="feedback-card glass-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="feedback-text" data-i18n="feedback_2">"Amazing approach and very helpful tools! Highly recommended for anyone confused about their career."</p>
+                        <p class="feedback-author">- Դավիթ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section faq-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sec_faq">FAQ</h2>
+                <div class="faq-list">
+                    <div class="faq-item glass-card">
+                        <div class="faq-question">
+                            <h3 data-i18n="faq_1_q">Ո՞ւմ համար է նախատեսված խորհրդատվությունը:</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p data-i18n="faq_1_a">Խորհրդատվությունը նախատեսված է 13 և բարձր տարիքի անձանց համար, ովքեր կանգնած են մասնագիտության ընտրության կամ կարիերայի փոփոխության որոշման առջև:</p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-card">
+                        <div class="faq-question">
+                            <h3 data-i18n="faq_2_q">Ինչպե՞ս գրանցվել հանդիպման:</h3>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p data-i18n="faq_2_a">Կարող եք գրանցվել՝ սեղմելով "Գրանցվի'ր" կոճակը, որը կուղղորդի ձեզ դեպի մեր օրացույց (Calendly)՝ հարմար օր և ժամ ընտրելու համար:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sec_contact">Կոնտակտներ</h2>
+                <div class="contact-grid">
+                    <div class="contact-info glass-card">
+                        <h3 data-i18n="contact_title">Կապվեք մեզ հետ</h3>
+                        <div class="contact-methods">
+                            <a href="mailto:info@kime.career.club" class="contact-method-item">
+                                <span class="method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </span>
+                                <span>info@kime.career.club</span>
+                            </a>
+                            <a href="tel:+37495074922" class="contact-method-item">
+                                <span class="method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </span>
+                                <span>+374 95 074922</span>
+                            </a>
+                        </div>
+                        <div class="contact-socials">
+                            <a href="https://www.instagram.com/kime.career.club" target="_blank" class="social-link-item">
+                                <span class="social-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                                </span>
+                                Instagram
+                            </a>
+                            <a href="https://www.facebook.com/kime.career.club" target="_blank" class="social-link-item">
+                                <span class="social-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                                </span>
+                                Facebook
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-action glass-card" style="text-align: center;">
+                        <h3 data-i18n="ready_to_start">Պատրա՞ստ եք սկսել</h3>
+                        <button class="btn btn-large btn-secondary" onclick="openCalendly()" data-i18n="cta_book_call">Ամրագրել զանգ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <span>KIME</span>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/kime.career.club" target="_blank" class="footer-social-icon" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+                <a href="https://www.instagram.com/kime.career.club" target="_blank" class="footer-social-icon" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="privacy-policy.html" data-i18n="link_privacy">Privacy Policy</a>
+                <a href="terms-and-conditions.html" data-i18n="link_terms">Terms and Conditions</a>
+            </div>
+            <p class="copyright">© 2026 Kime Career Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
