@@ -750,4 +750,27 @@ body {
     justify-content: center;
     gap: 15px;
   }
+
+  /* Make services and feedbacks swipeable horizontally */
+  .services-grid, .feedback-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .services-grid::-webkit-scrollbar,
+  .feedback-slider::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+
+  .service-card, .feedback-card {
+    flex: 0 0 85%;
+    max-width: 300px;
+    scroll-snap-align: center;
+  }
 }
