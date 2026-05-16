@@ -145,6 +145,6 @@ faqItems.forEach(item => {
 // --- CALENDLY INTEGRATION ---
 function openCalendly() {
   // Use Calendly Widget API
-  Calendly.initPopupWidget({ url: 'https://calendly.com/kime-career' }); // Placeholder URL, should be updated with real one
+  Calendly.initPopupWidget({ url: 'https://calendly.com/kimeeduclub/new-meeting' }); // Placeholder URL, should be updated with real one
   return false;
 }
