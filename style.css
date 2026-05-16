@@ -187,6 +187,9 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .logo-img {
@@ -726,5 +729,25 @@ body {
     overflow-wrap: break-word;
     word-break: break-word;
     hyphens: auto;
+  }
+
+  .contact-info, .contact-action {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .contact-methods {
+    align-items: center;
+  }
+
+  .contact-method-item {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+
+  .contact-socials {
+    justify-content: center;
+    gap: 15px;
   }
 }
